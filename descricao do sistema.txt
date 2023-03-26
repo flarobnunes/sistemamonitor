@@ -1,0 +1,16 @@
+- sistema de monitoramento com reconhecimento facial na entrada da casa, para acesso.
+
+- sistema de reconhecimento de pessas com aleras e nosmes salvos em banco de dados.
+
+
+-Os alertas são gerados no sistema monitor e enviados para telegram e whatsapp além de ficarem salvos em banco de dados
+
+     alerta:
+         Quem, Hora, Local, CameraID.
+
+
+esquema de conectividade:
+   As câmeras são também dispositivos multisensores, como som, proximidade de objetos, dentre outros.
+   As cameras ficam conectadas em uma rede específica, o dispositivo gerente da rede de camera se conecta no wifi da residência e no sistema monitor, responsável pela base de dados e alertas.
+   O sistema monitor faz o reconheicmento facial e de objetos.
+
